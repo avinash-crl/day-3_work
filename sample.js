@@ -132,17 +132,17 @@
 
 //challenge4:
 
-async function fetchData() {
-        try {
-            const res = await fetch("https://jsonplaceholder.typicode.com/users");
-            const users = await res.json();
-            let siva = users.map(user => user.name);
-            console.log(siva);
-        } catch (error) {
-            console.log("Error fetching data:", error);
-        }
-    }
-fetchData();
+// async function fetchData() {
+//         try {
+//             const res = await fetch("https://jsonplaceholder.typicode.com/users");
+//             const users = await res.json();
+//             let siva = users.map(user => user.name);
+//             console.log(siva);
+//         } catch (error) {
+//             console.log("Error fetching data:", error);
+//         }
+//     }
+// fetchData();
 
 
 
